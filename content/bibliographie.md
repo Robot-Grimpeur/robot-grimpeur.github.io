@@ -116,3 +116,6 @@ title: "Bibliographie"
 - https://stackoverflow.com/questions/1313590/bash-copy-all-files-except-one
 - https://lindevs.com/install-node-js-and-npm-on-raspberry-pi/
 - https://github.com/actions/upload-release-asset
+- https://eslint.org/docs/
+- https://github.com/conventional-changelog/commitlint/issues/211
+- https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
