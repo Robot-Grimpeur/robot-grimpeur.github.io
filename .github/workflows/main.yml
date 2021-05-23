@@ -1,0 +1,79 @@
+name: build os
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Dependencies
+        run: |
+          sudo apt update
+          sudo apt install coreutils p7zip-full qemu-user-static jq
+      
+      - name: Checkout CustomPiOS
+        uses: actions/checkout@v2
+        with:
+          repository: 'guysoft/CustomPiOS'
+          path: CustomPiOS
+      
+      - name: Checkout Project Repository
+        uses: actions/checkout@v2
+        with:
+          path: repository
+      
+      - name: Download Raspbian Image
+        run: |
+          cd repository/os/image
+          wget -c --trust-server-names 'https://downloads.raspberrypi.org/raspios_lite_armhf_latest'
+
+      - name: Update CustomPiOS Paths
+        run: |
+          cd repository/os
+          ../../CustomPiOS/src/update-custompios-paths
+      
+      - name: Copy files
+        run: |
+          cd repository
+          mkdir -p os/modules/dev-os/filesystem/root/dev-os/
+          rsync -av . os/modules/dev-os/filesystem/root/dev-os/ --exclude os
+      
+      - name: Build Image
+        run: |
+          sudo modprobe loop
+          cd repository/os
+          sudo bash -x ./build_dist
+      
+      - name: Copy output
+        id: copy
+        run: |
+          source repository/os/config
+          IMAGE=$DIST_NAME-$DIST_VERSION.img
+          cp repository/os/workspace/*.img $IMAGE
+          zip $IMAGE.zip $IMAGE
+          echo "::set-output name=image::$IMAGE.zip"
+      
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Version ${{ github.ref }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset
+        id: upload-release-asset 
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./${{ steps.copy.outputs.image }}
+          asset_name: ${{ steps.copy.outputs.image }}
+          asset_content_type: application/zip
