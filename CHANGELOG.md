@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [99.101.0](https://github.com/Robot-Grimpeur/robot-grimpeur.github.io/compare/v99.100.0...v99.101.0) (2021-05-23)
+
 ## 99.100.0 (2021-05-23)
 
 ### [99.99.10](https://github.com/Robot-Grimpeur/dev-os/compare/v99.99.9...v99.99.10) (2021-05-23)

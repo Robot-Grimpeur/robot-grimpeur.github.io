@@ -1,6 +1,6 @@
 {
   "name": "@robot-grimpeur/dev-os",
-  "version": "99.100.0",
+  "version": "99.101.0",
   "private": true,
   "bin": {
     "rg-dev-server": "dist/index.js"
