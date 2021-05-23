@@ -1,0 +1,16 @@
+{
+  "name": "@robot-grimpeur/robot-grimpeur.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^6.0.0",
+    "prettier": "^2.2.1",
+    "prettier-plugin-go-template": "^0.0.10"
+  }
+}

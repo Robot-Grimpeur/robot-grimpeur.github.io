@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <!-- Basé sur https://github.com/zwbetz-gh/cupper-hugo-theme/blob/master/layouts/_default/list.html -->
+  <main id="main">
+    <h1>Processus de création}</h1>
+    <ul class="patterns-list" id="list">
+      {{ range sort .Pages ".Title" "desc" }}
+        <li>
+          <h2>
+            <a href="{{ .RelPermalink }}">
+              <svg
+                class="bookmark"
+                aria-hidden="true"
+                viewBox="0 0 40 50"
+                focusable="false"
+              >
+                <use xlink:href="#bookmark"></use>
+              </svg>
+              {{ .Title }}
+            </a>
+          </h2>
+        </li>
+      {{ end }}
+    </ul>
+  </main>
+{{ end }}

@@ -1,0 +1,10 @@
+<figure>
+  <object
+    data="/images/{{ .Get "src" }}"
+    type="image/svg+xml"
+    style="width: 100%"
+  ></object>
+  {{ if .Get "caption" }}
+    <figcaption>{{ .Get "caption" }}</figcaption>
+  {{ end }}
+</figure>

@@ -1,0 +1,33 @@
+baseURL = "http://robot-grimpeur.github.io/"
+languageCode = "fr-ca"
+title = "Robot grimpeur"
+theme = "cupper-hugo-theme"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+showThemeSwitcher = false
+customCss = ["css/custom.css"]
+description = "Un projet de conception d'Expo-sciences qui a pour objet de créer un robot grimpeur de murs."
+homeMetaContent = ""
+footer = "Fait avec [Hugo](https://gohugo.io/). Thème basé sur [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme)."
+dateFormat = "2006-01-02"
+
+[[menu.nav]]
+name = "Accueil"
+url = "/"
+weight = 1
+
+[[menu.nav]]
+name = "Processus de création"
+url = "/processus-de-creation"
+weight = 2
+
+[[menu.nav]]
+name = "Bibliographie"
+url = "/bibliographie"
+weight = 3
+
+[[menu.nav]]
+name = "GitHub"
+url = "https://github.com/Robot-Grimpeur"
+weight = 4
