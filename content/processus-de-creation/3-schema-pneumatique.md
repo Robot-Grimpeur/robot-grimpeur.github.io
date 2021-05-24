@@ -11,8 +11,8 @@ Le schéma ci-haut est une représentation graphique des connections pneumatique
 
 Voici la légende des couleurs:
 
-- {{<color "#fa5252" "white" >}}Rouge: la pompe à vide{{</color>}}
-- {{<color "#4c6ef5" "white" >}}Bleu: des valves à deux voies controllées électroniquement{{</color>}}
-- {{<color "#fab005" "white" >}}Orange: des séparateurs (transforme un tuyau en 2){{</color>}}
+- {{< color "#fa5252" "white" >}}Rouge: la pompe à vide{{</>}}
+- {{< color "#4c6ef5" "white" >}}Bleu: des valves à deux voies controllées électroniquement{{</>}}
+- {{< color "#fab005" "white" >}}Orange: des séparateurs (transforment un tuyau en deux){{</>}}
 
-Les ventouses seraient placées aux quatre extrémités. Le principe est chaque paire de ventouse soit reliée à l'air ambient et/ou à la pompe, dépendamment de si elle doivent être collées ou détachées du mur. Quoiqu'elle soit représentées comme adjacente dans ce schéma, les paires de ventouses seraient disposées en diagonales dans le robot.
+Les ventouses seraient placées aux quatre extrémités. Le principe est que chaque paire de ventouses soit reliée à l'air ambient et/ou à la pompe, dépendamment de si elles doivent être collées ou détachées du mur. Quoiqu'elles soientt représentées comme adjacente dans ce schéma, les paires de ventouses seraient disposées en diagonales dans le robot.

@@ -13,7 +13,7 @@ Le but de ce projet est de crér un **robot d'entretien spécialisé**, capable 
 
 Afin de vérifier si cette idée était même réaliste, nous avons effectué des calculs préalables. Ce sont des estimations grossières ayant but de donner un ordre de grandeur.
 
-Soit une pompe à vide capable d'abaisser la pression de $\pu{85 kPa}$, telle que [celle ci](https://www.amazon.ca/DC12V-Vacuum-Small-Oilless-85KPa/dp/B07H4R7QNC/), et une ventouse ayant une superficie de contact avec l'air ambiant de $\pu{5 cm2}$
+Soit une pompe à vide capable d'abaisser la pression de $\pu{85 kPa}$, telle que [celle-ci](https://www.amazon.ca/DC12V-Vacuum-Small-Oilless-85KPa/dp/B07H4R7QNC/), et une ventouse ayant une superficie de contact avec l'air ambiant de $\pu{5 cm2}$
 
 {{< mathjax >}}
 
