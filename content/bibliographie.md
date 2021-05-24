@@ -119,3 +119,9 @@ title: "Bibliographie"
 - https://eslint.org/docs/
 - https://github.com/conventional-changelog/commitlint/issues/211
 - https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
+- https://nodejs.org/api/child_process.html#child_process_child_process_fork_modulepath_args_options
+- https://www.reddit.com/r/3Dprinting/comments/j7mv3z/how_to_3d_printdesign_suction_cups/
+- https://www.hubs.com/talk/t/which-material-is-best-suitable-for-suction-cup/4749
+- https://all3dp.com/2/flexible-3d-printing-filament-which-should-you-chose/
+- https://cad.onshape.com/help/
+- https://forum.onshape.com/discussion/1631/how-do-i-delete-a-version
