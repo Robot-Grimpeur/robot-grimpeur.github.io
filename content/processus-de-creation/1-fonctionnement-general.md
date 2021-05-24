@@ -1,6 +1,6 @@
 ---
 title: 1. Fonctionnement général
-number: 1
+attachments:
 ---
 
 ## Description

@@ -1,11 +1,9 @@
 ---
 title: 4. Schéma électrique
 attachments:
-  - url: /images/schema-electrique.svg
-    title: Schéma électrique
 ---
 
-{{< svg src="schema-electrique.svg" caption="Schéma du circuit électrique" >}}
+{{< img src="schema-electrique.svg" caption="Schéma du circuit électrique" >}}
 
 ## Description
 

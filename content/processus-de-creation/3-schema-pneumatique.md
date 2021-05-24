@@ -1,11 +1,9 @@
 ---
 title: 3. Schéma pneumatique
 attachments:
-  - url: /images/schema-pneumatique.svg
-    title: Schéma pneumatique
 ---
 
-{{< svg src="schema-pneumatique.svg" caption="Schéma des connections pneumatiques" >}}
+{{< img src="schema-pneumatique.svg" caption="Schéma des connections pneumatiques" >}}
 
 ## Description
 

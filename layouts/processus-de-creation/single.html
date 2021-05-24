@@ -15,10 +15,29 @@
 
     {{ .Content }}
 
-    {{ if .Params.attachments }}
-      <h2>Pièces jointes</h2>
-      {{ range $attachment := .Params.attachments }}
-        <a href="{{ $attachment.url }}" download>{{ $attachment.title }}</a>
+    <h2>Pièces jointes</h2>
+    {{ $attachments := slice }}
+
+    {{ $attachments = $attachments | append .Params.attachments }}
+
+    {{ $images := findRE "{{< img .* >}}" .RawContent }}
+    {{ range $images }}
+      {{ $src := findRE "src=\".*?\"" . }}
+      {{ $src = index $src 0 }}
+      {{ $src = strings.TrimPrefix "src=\"" $src }}
+      {{ $src = strings.TrimSuffix "\"" $src }}
+
+      {{ $caption := findRE "caption=\".*?\"" . }}
+      {{ $caption = index $caption 0 }}
+      {{ $caption = strings.TrimPrefix "caption=\"" $caption }}
+      {{ $caption = strings.TrimSuffix "\"" $caption }}
+
+      {{ $attachments = $attachments | append (dict "url" $src "title" (or $caption $src)) }}
+    {{ end }}
+
+    {{ range $attachments }}
+      {{ if . }}
+        <a href="{{ .url }}" download>{{ .title }}</a>
         <br />
       {{ end }}
     {{ end }}

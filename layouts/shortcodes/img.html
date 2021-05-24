@@ -1,0 +1,18 @@
+<figure>
+  {{ $src := .Get "src" }}
+  {{ $caption := .Get "caption" }}
+
+  {{ if strings.HasSuffix $src "svg" }}
+    <object
+      data="/images/{{ .Get "src" }}"
+      type="image/svg+xml"
+      style="width: 100%"
+    ></object>
+    {{ else }}
+    <img src="/images/{{ $src }}" alt="{{ $caption }}" />
+  {{ end }}
+
+  {{ if $caption }}
+    <figcaption>{{ $caption }}</figcaption>
+  {{ end }}
+</figure>
