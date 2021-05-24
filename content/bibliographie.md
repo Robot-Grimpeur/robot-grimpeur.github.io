@@ -125,3 +125,7 @@ title: "Bibliographie"
 - https://all3dp.com/2/flexible-3d-printing-filament-which-should-you-chose/
 - https://cad.onshape.com/help/
 - https://forum.onshape.com/discussion/1631/how-do-i-delete-a-version
+- https://stackoverflow.com/questions/33225067/linking-pages-in-hugo-markdown
+- https://www.w3schools.com/tags/tag_figure.asp
+- https://discourse.gohugo.io/t/initialize-empty-variable-array-for-resources/27816/4
+- https://discourse.gohugo.io/t/append-to-an-array-within-a-range-loop/22904
