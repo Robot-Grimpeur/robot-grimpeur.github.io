@@ -43,7 +43,7 @@ title: "Bibliographie"
 - https://formlabs.com/blog/designing-3d-printed-snap-fit-enclosures/
 - https://all3dp.com/2/3d-printed-joints-the-basics/
 - https://www.hubs.com/knowledge-base/how-assemble-3d-printed-parts-threaded-fasteners/
-- https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_bplus_1p2.pdf
+- https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/
 - https://all3dp.com/1/3d-printing-support-structures/
 - https://www.youtube.com/watch?v=DZavbiV7IwQ
 - https://www.onshape.com/en/resource-center/articles/onshape-partner-spotlight-electra-cloud-is-the-only-electrical-schematic-software-you-can-access-anywhere
@@ -129,3 +129,16 @@ title: "Bibliographie"
 - https://www.w3schools.com/tags/tag_figure.asp
 - https://discourse.gohugo.io/t/initialize-empty-variable-array-for-resources/27816/4
 - https://discourse.gohugo.io/t/append-to-an-array-within-a-range-loop/22904
+- https://serverfault.com/questions/140421/how-to-set-public-ssh-key-for-root-user-on-server
+- https://www.ssh.com/academy/ssh/keygen
+- https://opensource.com/article/18/5/how-find-ip-address-linux
+- https://forum.onshape.com/discussion/8834/version-and-history-for-single-part-studio
+- https://github.com/nodejs/node-v0.x-archive/issues/8644
+- https://stackoverflow.com/questions/8649861/node-js-repl-sockets-and-telnet-tab-completion-arrow-keys-etc
+- https://superuser.com/questions/339107/how-to-telnet-to-an-ip-address-on-a-specific-port
+- https://gist.github.com/TooTallNate/2209310
+- https://nodejs.org/api/
+- https://stackoverflow.com/questions/9302458/node-js-hooking-repl-to-a-remote-node-server
+- https://nodejs.org/en/knowledge/REPL/how-to-create-a-custom-repl/
+- https://nathan.vegas/blog/post/1/
+- https://stackoverflow.com/questions/17604866/difference-between-readfile-and-readfilesync
