@@ -17,7 +17,9 @@
 
     {{ $attachments := slice }}
     {{ $attachments = after 1 ($attachments | append  .Params.attachments) }}
+
     {{ $images := findRE "{{< img .* >}}" .RawContent }}
+
     {{ range $images }}
       {{ $src := findRE "src=\".*?\"" . }}
       {{ $src = index $src 0 }}
@@ -31,6 +33,7 @@
 
       {{ $attachments = $attachments | append (dict "url" $src "title" (or $caption $src)) }}
     {{ end }}
+
     {{ if gt (len $attachments) 0 }}
       <h2>Pièces jointes</h2>
 
