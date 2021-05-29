@@ -27,3 +27,4 @@ Les problèmes de la v1 ont été réglés. Toutefois, de nouveaux sont survenus
 ## v3
 
 {{< img src="patte-v3.png" caption="Photographie de la version 3 des pattes" >}}
+{{< img src="ressorts.png" caption="Photographie d'un ressort coupé et d'un long ressort" >}}
