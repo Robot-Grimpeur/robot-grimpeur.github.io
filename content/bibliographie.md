@@ -30,6 +30,7 @@ title: "Bibliographie"
 - https://stackoverflow.com/questions/8649861/node-js-repl-sockets-and-telnet-tab-completion-arrow-keys-etc
 - https://stackoverflow.com/questions/9302458/node-js-hooking-repl-to-a-remote-node-server
 - https://stackoverflow.com/questions/17604866/difference-between-readfile-and-readfilesync
+- https://stackoverflow.com/questions/36663187/yaml-is-it-possible-to-have-a-list-in-the-root-section
 
 #### Electronics
 
@@ -90,6 +91,7 @@ title: "Bibliographie"
 - https://discourse.gohugo.io/t/append-to-an-array-within-a-range-loop/22904
 - https://discourse.gohugo.io/t/how-to-skip-first-x-amount-of-posts-in-list/2144
 - https://discourse.gohugo.io/t/is-it-possible-to-embed-partials-in-markdown/9335/7
+- https://discourse.gohugo.io/t/how-to-access-an-array-at-an-index/1117/3
 
 ### Raspberry Pi
 
@@ -123,6 +125,10 @@ title: "Bibliographie"
 - https://all3dp.com/1/3d-printing-support-structures/
 - https://all3dp.com/2/flexible-3d-printing-filament-which-should-you-chose/
 - https://all3dp.com/2/cura-infill-patterns-all-you-need-to-know/
+- https://all3dp.com/2/ninjatek-filament-ninjaflex-cheetah-armadillo/
+- https://all3dp.com/2/3d-printer-tape-the-best-tape-for-better-adhesion/
+- https://all3dp.com/2/what-s-the-best-glue-stick-for-3d-printing/
+- https://m.all3dp.com/2/tpu-filament-explained-and-compared/
 
 ## Cours OnShape
 
@@ -169,6 +175,8 @@ title: "Bibliographie"
 - [Documentation de Katex](https://katex.org/docs/)
 - [Documentation de Node.js](https://nodejs.org/api/)
 - [Documentation de Ultimaker Cura](https://support.ultimaker.com)
+- [Documentation MDN](https://developer.mozilla.org/)
+- [Documentation de VSCode-YAML](https://github.com/redhat-developer/vscode-yaml)
 - https://github.com/rafgraph/spa-github-pages
 - https://iximiuz.com/en/posts/from-docker-container-to-bootable-linux-disk-image/
 - http://www.learningaboutelectronics.com/Articles/How-to-reduce-voltage-with-resistors.php
@@ -195,3 +203,5 @@ title: "Bibliographie"
 - https://github.com/nodejs/node-v0.x-archive/issues/8644
 - https://gist.github.com/TooTallNate/2209310
 - https://ninjatek.com/wp-content/uploads/SDS-NinjaFlex-rev1.pdf
+- https://www.json2yaml.com/
+- https://www.jsonschema.net/home
