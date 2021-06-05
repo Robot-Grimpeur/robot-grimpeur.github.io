@@ -1,3 +1,6 @@
 {
-  "conventionalCommits.gitmoji": false
+  "conventionalCommits.gitmoji": false,
+  "yaml.schemas": {
+    "./.vscode/schema/lexicon.json": "data/lexicon.yaml"
+  }
 }

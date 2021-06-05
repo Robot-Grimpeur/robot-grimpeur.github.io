@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <h1>Lexique</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range $.Site.Data.lexicon }}
+        <tr>
+          <td><a href="#{{ .id }}">{{ .name }}</a></td>
+          <td>{{ .description.short }}</td>
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
+
+  {{ range $.Site.Data.lexicon }}
+    <h3 id="{{ .id }}">{{ .name }}</h3>
+    <p>{{ .description.long | markdownify }}</p>
+  {{ end }}
+{{ end }}

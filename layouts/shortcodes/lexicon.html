@@ -1,0 +1,4 @@
+{{ $id := .Get 0 }}
+{{ $entry := index (where $.Site.Data.lexicon "id" $id) 0 }}
+
+<em>« <a href="/lexique#{{ $id }}">{{ $entry.name }}</a> »</em>

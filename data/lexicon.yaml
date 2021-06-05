@@ -1,0 +1,20 @@
+- id: ninjaflex
+  name: NinjaFlex
+  description:
+    short: Le plastique flexible que nous utilisons
+    long: ""
+- id: flow
+  name: Flow
+  description:
+    short: Un paramètre d'impression
+    long: La documentation de Ultimaker Cura pour ce paramètre est disponible [ici](https://support.ultimaker.com/hc/en-us/articles/360012610379-Material-settings).
+- id: infill
+  name: Infill
+  description:
+    short: Un paramètre d'impression
+    long: La documentation de Ultimaker Cura pour ce paramètre est disponible [ici](https://support.ultimaker.com/hc/en-us/articles/360012607079-Infill-settings).
+- id: ducttape
+  name: Duct Tape
+  description:
+    short: Un ruban adhésif
+    long: Le *Duct Tape* a une page dédiée sur [Wikipédia](https://fr.wikipedia.org/wiki/Duct_tape)

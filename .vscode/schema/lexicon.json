@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "array",
+  "default": [],
+  "examples": [],
+  "additionalProperties": false,
+  "items": {
+    "$id": "#/items",
+    "anyOf": [
+      {
+        "$id": "#/items/anyOf/0",
+        "type": "object",
+        "default": {},
+        "examples": [],
+        "required": ["id", "name", "description"],
+        "properties": {
+          "id": {
+            "$id": "#/items/anyOf/0/properties/id",
+            "type": "string",
+            "default": "",
+            "examples": []
+          },
+          "name": {
+            "$id": "#/items/anyOf/0/properties/name",
+            "type": "string",
+            "default": "",
+            "examples": []
+          },
+          "description": {
+            "$id": "#/items/anyOf/0/properties/description",
+            "type": "object",
+            "default": {},
+            "examples": [],
+            "required": ["short", "long"],
+            "properties": {
+              "short": {
+                "$id": "#/items/anyOf/0/properties/description/properties/short",
+                "type": "string",
+                "default": "",
+                "examples": []
+              },
+              "long": {
+                "$id": "#/items/anyOf/0/properties/description/properties/long",
+                "type": "string",
+                "default": "",
+                "examples": []
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    ]
+  }
+}
