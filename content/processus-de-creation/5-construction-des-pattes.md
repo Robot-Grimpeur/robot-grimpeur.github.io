@@ -28,3 +28,14 @@ Les problèmes de la v1 ont été réglés. Toutefois, de nouveaux sont survenus
 
 {{< img src="patte-v3.png" caption="Photographie de la version 3 des pattes" >}}
 {{< img src="ressorts.png" caption="Photographie d'un ressort coupé et d'un long ressort" >}}
+
+Plusieurs améliorations ont été apportées:
+
+- Une 2e coulisse imbriquée a été ajoutée pour plus de stabilité
+- Les coulisses sont été alongées
+- Nous avons dû utiliser de plus petites visses afin de pouvoir les insérer dans les ressorts
+
+Toutefois, il reste encore plusieurs problèmes:
+
+- Les nouvelles visses sont trop longues. Il faudra donc alonger le cadre
+- L'épaisseur du PLA autour du trou de visse est trop mince, donc il se casse avec un peu de force
