@@ -21,8 +21,8 @@ $$
 \begin{align}
 P &= \frac{F}{A} \\
 F &= P \cdot A \\
-F &\approx \pu{85 kPa} \cdot \pu{5 cm2} \\
-F &\approx \pu{425 N} \\
+F &= \pu{85 kPa} \cdot \pu{5 cm2} \\
+F &= \pu{4,25 N} \\
 \end{align}
 $$
 
@@ -36,8 +36,8 @@ $$
 \begin{align}
 F &= m \cdot a \\
 m &= \frac{F}{a} \\
-m &\approx \frac{\pu{425 N}}{\pu{9.8 m/s2}} \\
-m &\approx \pu{43.37 kg} \\
+m &= \frac{\pu{4,25 N}}{\pu{9.8 m/s2}} \\
+m &= \pu{4,34 kg} \\
 \end{align}
 $$
 
